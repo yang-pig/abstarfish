@@ -1,0 +1,21 @@
+{
+    "name": "zhuyy/abstarfish",
+    "description": "abstarfish/abstarfish",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "朱洋洋",
+            "email": "zhuyy@2345.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abstarfish\\Starfish\\": "src/Abstarfish/Starfish"
+        }
+    }
+}
